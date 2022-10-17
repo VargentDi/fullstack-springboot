@@ -1,6 +1,6 @@
 import {useState, useEffect, useRef} from 'react'
 import {getAllStudents} from "./client";
-import {Layout, Menu, Breadcrumb, Table, Spin, Empty, Button, Tag, Badge, Avatar} from 'antd';
+import {Layout, Menu, Breadcrumb, Table, Spin, Image, Button, Tag, Badge, Avatar} from 'antd';
 import {
     DesktopOutlined,
     PieChartOutlined,
@@ -200,7 +200,9 @@ function App() {
                     {renderStudents()}
                 </div>
             </Content>
-            <Footer style={{textAlign: 'center'}}>By Di@2022</Footer>
+            <Footer style={{textAlign: 'center'}}>
+                <Image width={75} src={"https://user-images.githubusercontent.com/45347408/196230408-6308d52e-59d9-4320-9311-e6d654e76adc.png"}/>
+            </Footer>
         </Layout>
     </Layout>
 }
