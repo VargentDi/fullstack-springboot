@@ -21,7 +21,7 @@ env:
   EB_ENVIRONMENT_NAME: Springreactfullstack-env
   EB_APPLICATION_NAME: spring-react-fullstack
   EB_DEPLOYMENT_PACKAGE: elasticbeanstalk/docker-compose.yml
-  SPRING_PROFILES_ACTIVE: cicd
+  SPRING_PROFILES_ACTIVE: dev
 
 jobs:
   deploy:
