@@ -9,9 +9,10 @@ on:
 env:
   POSTGRESQL_VERSION: 13.1
   POSTGRESQL_DB: dizhao
-  POSTGRESQL_USER: dizhao
+  POSTGRESQL_USER: postgres
   POSTGRESQL_PASSWORD: password
   JAVA_VERSION: 1.15
+  SPRING_PROFILES_ACTIVE: dev
 
 jobs:
   build:
